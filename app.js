@@ -91,4 +91,3 @@ function reiniciarJogo() {
     mensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true);
 }
-
