@@ -1,16 +1,16 @@
 // Primeiramente vamos definir uma variável e puxar do documento do HTML o h1 que geralmetne é usado para o título
 //let titulo = document.querySelector('h1');
 //titulo.innerHTML = 'Jogo do número secreto';
-
 // Agora a ideia é fazer igual com o parágrafo
 //let paragrafo = document.querySelector('p');
-//paragrafo.innerHTML = 'Escolha um número entre 1 e 10:';
+//paragrafo.innerHTML = 'Escolha um número entre 1 e 100:';
+// As linhas de código acima foram substituídas pela função chamada mensagemInicial
 
 // Para criarmos uma lista com os números que já foram sorteados 
 let numerosSorteados = [];
 
 // Variável criada para definir o valor máximo do sorteio
-let numeroMaximo = 10;
+let numeroMaximo = 100;
 
 // Variável criada para a função 'gerarNumeroAleatorio'
 let numeroSecreto = gerarNumeroAleatorio();
