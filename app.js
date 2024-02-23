@@ -10,7 +10,7 @@
 let numerosSorteados = [];
 
 // Variável criada para definir o valor máximo do sorteio
-let numeroMaximo = 100;
+let numeroMaximo = 10;
 
 // Variável criada para a função 'gerarNumeroAleatorio'
 let numeroSecreto = gerarNumeroAleatorio();
